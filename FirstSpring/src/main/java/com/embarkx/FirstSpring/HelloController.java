@@ -16,7 +16,7 @@ public class HelloController {
 	
 	@GetMapping("/hello")
 	public HelloResponse hello() {
-		return new HelloResponse("Hello World!");
+		return new HelloResponse("Hello World! Naved");
 	}
 	
 	@PostMapping("/hello")
