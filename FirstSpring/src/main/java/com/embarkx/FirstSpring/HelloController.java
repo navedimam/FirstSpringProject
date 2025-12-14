@@ -19,6 +19,11 @@ public class HelloController {
 		return new HelloResponse("Hello World! Naved");
 	}
 	
+	@GetMapping("/newApi/hello")
+	public HelloResponse hello1() {
+		return new HelloResponse("Hello World! New API");
+	}
+	
 	@PostMapping("/hello")
 	public HelloResponse helloPost(@RequestBody String name) {
 		return new HelloResponse("Hello" + name+"!");
