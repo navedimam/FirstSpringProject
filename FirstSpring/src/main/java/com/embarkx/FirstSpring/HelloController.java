@@ -21,7 +21,7 @@ public class HelloController {
 	
 	@GetMapping("/newApi/hello")
 	public HelloResponse hello1() {
-		return new HelloResponse("Hello World! New API");
+		return new HelloResponse("Hello World! New API by Tabrez");
 	}
 	
 	@PostMapping("/hello")
